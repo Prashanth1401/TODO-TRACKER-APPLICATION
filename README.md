@@ -1,4 +1,4 @@
 # Todo Application
 # for frontend used Angular framework
-# for backend use SpringBoot
+# for backend used SpringBoot
 
