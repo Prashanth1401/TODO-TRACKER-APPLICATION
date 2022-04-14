@@ -1,0 +1,19 @@
+h1{
+    font-family: Comic Sans MS;
+    margin-left: 10%;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
+    width: 100%;
+    align-items: center;
+}
+
+mat-card{
+    width: 60%;
+    min-width: 320px;
+    margin: 0;
+}

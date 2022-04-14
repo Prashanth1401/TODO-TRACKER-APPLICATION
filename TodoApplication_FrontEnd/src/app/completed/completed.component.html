@@ -1,0 +1,18 @@
+<h1>Completed Tasks</h1>
+<div class="task-content">
+    <mat-card *ngFor="let Task of Tasks" style="width: 60%;">
+        <mat-card-title>{{Task.taskTitle}}</mat-card-title>
+        <mat-card-subtitle>{{Task.taskDescription}}</mat-card-subtitle>
+        <mat-card-actions align="end">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="deleteTask(Task.taskId)">
+                    <mat-icon>delete</mat-icon>
+                    <a >delete</a>
+                </button>
+            </mat-menu>
+        </mat-card-actions>
+    </mat-card>
+</div>

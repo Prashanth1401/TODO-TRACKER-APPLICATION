@@ -1,0 +1,22 @@
+<h1>Archived Tasks</h1>
+    <div>
+        <mat-card *ngFor="let archive of archives">
+            <mat-card-title>{{archive.taskTitle}}</mat-card-title>
+            <mat-card-subtitle>{{archive.taskDescription}}</mat-card-subtitle>
+            <mat-card-actions align="end">
+                <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                    <mat-icon>more_vert</mat-icon>
+                </button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item (click)="deleteTask(archive.taskId)">
+                        <mat-icon>delete</mat-icon>
+                        <a>delete</a>
+                    </button>
+                    <button mat-menu-item disabled (click)="addToTask(archive)">
+                        <mat-icon>done</mat-icon>
+                        <a>Add to Task List</a>
+                    </button>
+                </mat-menu>
+            </mat-card-actions>
+        </mat-card>
+    </div>

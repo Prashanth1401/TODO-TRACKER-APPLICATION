@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidenav-content {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 20%;
+    min-width: 160px;
+  }
+
+  button {
+    width: 100%;
+    height: 8%;
+    justify-content: center;
+    text-align: left;
+  }

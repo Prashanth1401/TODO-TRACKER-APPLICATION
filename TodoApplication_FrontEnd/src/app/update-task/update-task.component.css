@@ -1,0 +1,17 @@
+h1{
+    font-family: Comic Sans MS;
+    margin-left: 10%;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+mat-form-field{
+    width: 60%;
+    height: 10%
+}

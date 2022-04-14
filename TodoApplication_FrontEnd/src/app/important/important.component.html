@@ -1,0 +1,26 @@
+<h1>Important Tasks</h1>
+<div>
+    <mat-card *ngFor="let ImpTask of ImpTasks">
+        <mat-card-title>{{ImpTask.taskTitle}}</mat-card-title>
+        <mat-card-subtitle>{{ImpTask.taskDescription}}</mat-card-subtitle>
+        <mat-card-actions align="end">
+            <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+                <mat-icon>more_vert</mat-icon>
+            </button>
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item (click)="Impdelet(ImpTask.taskId)">
+                    <mat-icon>delete</mat-icon>
+                    <a >delete</a>
+                </button>
+                <button mat-menu-item  (click)="updateTask(ImpTask)" >
+                    <mat-icon>eject</mat-icon>
+                    <a>update</a>
+                </button>
+                <button mat-menu-item (click)="archive(ImpTask.taskId)">
+                    <mat-icon>archive</mat-icon>
+                    <a>archive</a>
+                </button>
+            </mat-menu>
+        </mat-card-actions>
+    </mat-card>
+</div>

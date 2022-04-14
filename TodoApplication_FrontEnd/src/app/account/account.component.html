@@ -1,0 +1,21 @@
+
+<div class="outerContainer">
+    <mat-toolbar>
+        <span>Account</span>
+        <img>
+        <p style="margin-left:500px">ToDo-List Application</p>
+        <span class="space"></span>
+        <button style="color: rgb(212, 0, 255);" mat-icon-button matTooltip="Home" routerLink="/home/task" class="home">
+            <mat-icon>home</mat-icon>
+        </button>
+    </mat-toolbar>
+<mat-drawer-container class="container">
+    <mat-drawer mode="side" opened>
+        <button mat-button routerLink="login">Login</button>
+        <button mat-button routerLink="register" >Register</button>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+</div>

@@ -1,0 +1,21 @@
+h1{
+    font-family: Comic Sans MS;
+    margin-left: 10%;
+}
+
+.task-content{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+mat-accordion{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

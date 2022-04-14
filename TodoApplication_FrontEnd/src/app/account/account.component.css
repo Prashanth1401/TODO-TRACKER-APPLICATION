@@ -1,0 +1,15 @@
+.container{
+    height: 90%;
+}
+
+mat-toolbar{
+    height: 10%;
+}
+
+.outerContainer{
+    height: 100%;
+}
+
+.space {
+    flex: 1 1 auto;
+}

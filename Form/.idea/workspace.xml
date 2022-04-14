@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="354cf2af-6af4-4149-b0fa-6a07c2e69c94" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TodoApplication/src/app/add-task/add-task.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApplication/src/app/add-task/add-task.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoApplication/src/app/add-task/add-task.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApplication/src/app/add-task/add-task.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoApplication/src/app/task.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApplication/src/app/task.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TodoApplicationService/ImportantService/src/main/java/com/todo/config/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApplicationService/ImportantService/src/main/java/com/todo/config/Consumer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27JxOhPALDvq6Nj3txcgfssQXNI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Form" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="354cf2af-6af4-4149-b0fa-6a07c2e69c94" name="Changes" comment="" />
+      <created>1649051959615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649051959615</updated>
+    </task>
+    <servers />
+  </component>
+</project>

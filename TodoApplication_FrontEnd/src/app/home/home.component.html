@@ -1,0 +1,36 @@
+<div style="width: 100%;height: 100%;">
+    <div style="width: 100%;height: 10%;">
+        <app-nav-bar [drawers]='drawer'></app-nav-bar>
+    </div>
+    <div style="width: 100%;height: 90%;">
+        <mat-drawer-container class="container" autosize hasBackdrop="false">
+            <mat-drawer #drawer class="sidenav" mode="side">
+                <button mat-button routerLink="task">
+                    <mat-icon>lightbulb</mat-icon>
+                    <span> Take Notes</span>
+                </button>
+
+                <button mat-button routerLink="important">
+                    <mat-icon>grade</mat-icon>
+                    Important Tasks
+                </button>
+
+                <button mat-button routerLink="archive">
+                    <mat-icon>archive</mat-icon>
+                    <span> Archived Tasks</span>
+                </button>
+                <button mat-button routerLink="completed">
+                    <mat-icon>done</mat-icon>
+                    <span> Completed Tasks</span>
+                </button>
+            </mat-drawer>
+
+            <div class="sidenav-content">
+
+                <router-outlet></router-outlet>
+
+            </div>
+
+        </mat-drawer-container>
+    </div>
+</div>

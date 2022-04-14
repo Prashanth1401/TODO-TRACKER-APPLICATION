@@ -1,0 +1,25 @@
+<h1>Update Task</h1>
+<div [formGroup]="Task" class="content">
+    
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Task Title</mat-label>
+        <input matInput [(ngModel)]="task.taskTitle" formControlName="taskTitle">
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Task Description</mat-label>
+        <textarea matInput [(ngModel)]="task.taskDescription" formControlName="taskDescription"></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width" appearance="outline">
+        <mat-label>Task category </mat-label>
+        <textarea matInput [(ngModel)]="task.category" formControlName="category"></textarea>
+    </mat-form-field>
+    <mat-form-field appearance="outline" style="min-width: 200px;">
+        <mat-label>Task Target date</mat-label>
+        <input matInput [matDatepicker]="picker" [(ngModel)]="task.targetDate" formControlName="targetDate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <button mat-button (click)="updateTask()" [disabled]="!Task.valid" color="primary">Update Task</button>
+</div>
